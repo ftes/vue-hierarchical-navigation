@@ -3,15 +3,17 @@
   "version": "1.0.0",
   "description": "Hierarchical Navigation",
   "author": "Fredrik Teschke",
+  "homepage": "./",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
-    "start": "npm run dev",
+    "start": "yarn dev",
     "unit": "jest --config test/unit/jest.conf.js --coverage",
-    "test": "npm run unit",
+    "test": "yarn unit",
     "lint": "eslint --ext .js,.vue src test/unit/specs",
     "build": "node build/build.js",
-    "generate-data": "node src/service/generate-data.js"
+    "generate-data": "node src/service/generate-data.js",
+    "build-and-upload": "yarn build && ./gzip.sh && ./upload.sh nav.ftes.de"
   },
   "dependencies": {
     "bootstrap": "^4.0.0-beta.2",
