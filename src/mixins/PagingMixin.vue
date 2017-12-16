@@ -50,6 +50,11 @@ export default {
 
   beforeRouteLeave (to, from, next) {
     from.meta.suffix = `${this.from} - ${this.to} of ${this.totalCount}`
+    from.meta.totalCount = this.totalCount
+    from.meta.childRouteParam = this.childRouteParam
+    // Use filters, sorting etc. to resolve ID
+    from.meta.getId = offset => this.getItems(1, offset)
+      .then(response => response.items[0].id)
     next()
   }
 }

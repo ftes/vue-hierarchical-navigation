@@ -16,8 +16,8 @@
           <th>Name</th>
           <th>Amount</th>
         </tr>
-        <tr v-for="item in items" :key="item.id">
-          <td><router-link :to="itemLink(item)">{{item.name}}</router-link></td>
+        <tr v-for="(item, i) in items" :key="item.id">
+          <td><router-link :to="itemLink(item, i)">{{item.name}}</router-link></td>
           <td>{{ item.amount }} pieces</td>
         </tr>
       </table>
@@ -39,7 +39,8 @@ export default {
 
   data: () => ({
     cart: {},
-    pageSize: PAGE_SIZE
+    pageSize: PAGE_SIZE,
+    childRouteParam: 'itemId'
   }),
 
   methods: {
@@ -49,17 +50,23 @@ export default {
           this.cart = cart
         })
     },
-    itemLink (item) {
+    itemLink (item, offsetWithinPage) {
       return {
         name: 'cart.item.details',
         params: {
-          itemId: item.id
+          [this.childRouteParam]: item.id
+        },
+        query: {
+          parentOffset: this.params.offset + offsetWithinPage
         }
       }
     },
     getItems (limit = PAGE_SIZE, offset) {
       const cartId = this.$route.params.cartId
       return service.listItems(cartId, limit, offset)
+    },
+    navigateTo (cartId) {
+      this.$router.push({ params: { cartId } })
     }
   },
 

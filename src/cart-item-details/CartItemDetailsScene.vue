@@ -7,23 +7,30 @@
 
 <script>
 import service from '@/service'
+
 export default {
   data: () => ({
     item: {}
   }),
+
   methods: {
     fetchItem () {
-      service.getItem(this.$route.params.id)
+      service.getItem(this.$route.params.itemId)
         .then(item => {
           this.item = item
         })
+    },
+    navigateTo (itemId) {
+      this.$router.push({ params: { itemId } })
     }
   },
+
   watch: {
-    '$route.params.id' (id) {
+    '$route.params.itemId' (id) {
       this.fetchItem()
     }
   },
+
   mounted () {
     this.fetchItem()
   }

@@ -12,8 +12,8 @@
           <th>Name</th>
           <th>Amount</th>
         </tr>
-        <tr v-for="cart in items" :key="cart.id">
-          <td><router-link :to="cartLink(cart)">{{cart.name}}</router-link></td>
+        <tr v-for="(cart, i) in items" :key="cart.id">
+          <td><router-link :to="cartLink(cart, i)">{{cart.name}}</router-link></td>
           <td>{{ cart.amount }} EUR</td>
         </tr>
       </table>
@@ -33,15 +33,19 @@ export default {
   ],
 
   data: () => ({
-    pageSize: PAGE_SIZE
+    pageSize: PAGE_SIZE,
+    childRouteParam: 'cartId'
   }),
 
   methods: {
-    cartLink (cart) {
+    cartLink (cart, offsetWithinPage) {
       return {
         name: 'cart.details',
         params: {
-          cartId: cart.id
+          [this.childRouteParam]: cart.id
+        },
+        query: {
+          parentOffset: this.params.offset + offsetWithinPage
         }
       }
     },
