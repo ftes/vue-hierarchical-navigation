@@ -97,6 +97,14 @@ export default {
             }
           }
         })
+    },
+
+    onKeyUp (event) {
+      if (event.key === 'ArrowLeft' && this.prevLink) {
+        this.$router.push(this.prevLink)
+      } else if (event.key === 'ArrowRight' && this.nextLink) {
+        this.$router.push(this.nextLink)
+      }
     }
   },
 
@@ -118,6 +126,14 @@ export default {
         this.setLinkForId(getId, 'nextLink', this.parentOffset + 1, childRouteParam)
       }
     }
+  },
+
+  mounted () {
+    window.addEventListener('keyup', this.onKeyUp)
+  },
+
+  beforeDestroy () {
+    window.removeEventListener('keyup', this.onKeyUp)
   }
 }
 </script>

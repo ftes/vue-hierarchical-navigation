@@ -74,10 +74,6 @@ export default {
     '$route.params.cartId' () {
       this.fetchCart()
     }
-  },
-
-  mounted () {
-    this.fetchCart()
   }
 }
 </script>
