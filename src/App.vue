@@ -1,5 +1,12 @@
 <template>
   <div id="app">
+    <nav class="navbar navbar-dark bg-dark">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#" @click="$router.go(-1)">Back</a>
+        </li>
+      </ul>
+    </nav>
     <router-view/>
   </div>
 </template>
@@ -19,6 +26,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
