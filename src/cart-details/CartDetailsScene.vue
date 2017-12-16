@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Cart: {{cart.name}}</h1>
+    <h1 id="step7">Cart: {{cart.name}}</h1>
     <div><b>Amount:</b> {{cart.amount}} EUR</div>
     <hr/>
     <h2>Items</h2>
@@ -29,12 +29,14 @@
 <script>
 import service from '@/service'
 import PagingMixin from '@/mixins/PagingMixin'
+import IntroMixin from '@/mixins/IntroMixin'
 
 const PAGE_SIZE = 10
 
 export default {
   mixins: [
-    PagingMixin
+    PagingMixin,
+    IntroMixin
   ],
 
   data: () => ({

@@ -7,9 +7,9 @@
       :totalCount="totalCount"
       :pageSize="pageSize"
       :numberOfItems="items.length">
-      <table class="table">
+      <table class="table" id="step2-4">
         <tr>
-          <sortable-th field="name">Name</sortable-th>
+          <sortable-th field="name" id="nameHeader">Name</sortable-th>
           <sortable-th field="amount">Amount</sortable-th>
         </tr>
         <tr v-for="(cart, i) in items" :key="cart.id">
@@ -24,12 +24,14 @@
 <script>
 import service from '@/service'
 import PagingMixin from '@/mixins/PagingMixin'
+import IntroMixin from '@/mixins/IntroMixin'
 
 const PAGE_SIZE = 10
 
 export default {
   mixins: [
-    PagingMixin
+    PagingMixin,
+    IntroMixin
   ],
 
   data: () => ({

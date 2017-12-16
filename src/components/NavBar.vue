@@ -1,6 +1,6 @@
 <template>
-  <nav id="navbar" class="navbar navbar-dark bg-dark">
-    <ol id="breadcrumb" class="breadcrumb">
+  <nav id="step5" class="navbar navbar-dark bg-dark">
+    <ol class="breadcrumb">
       <li v-for="breadcrumb in breadcrumbs" :key="breadcrumb.title"
         class="breadcrumb-item" :class="{ 'active': breadcrumb.active }">
         <router-link :to="breadcrumb.to" v-if="!breadcrumb.active">
@@ -10,7 +10,7 @@
         <span v-else>{{breadcrumb.title}}</span>
       </li>
     </ol>
-    <span class="ml-auto btn-group">
+    <span class="ml-auto btn-group" id="step6">
       <router-link class="btn btn-outline-secondary"
         :class="{ disabled: !prevLink }" :to="prevLink || {}">
         &laquo;
@@ -19,7 +19,7 @@
          :class="{ disabled: !backLink }" :to="backLink || {}">
          Back
       </router-link>
-      <router-link class="btn btn-outline-secondary"
+      <router-link class="btn btn-outline-secondary" id="next"
         :class="{ disabled: !nextLink }" :to="nextLink || {}">
         &raquo;
       </router-link>
@@ -100,6 +100,8 @@ export default {
     },
 
     onKeyUp (event) {
+      if (window.introActive) return
+
       if (event.key === 'ArrowLeft' && this.prevLink) {
         this.$router.push(this.prevLink)
       } else if (event.key === 'ArrowRight' && this.nextLink) {
@@ -139,11 +141,11 @@ export default {
 </script>
 
 <style>
-#breadcrumb {
-  margin: 0;
+.breadcrumb {
+  margin: 0 !important;
 }
 
-#navbar {
+.navbar {
   margin-bottom: 20px;
 }
 </style>

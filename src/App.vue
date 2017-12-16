@@ -7,6 +7,7 @@
 
 <script>
 import NavBar from '@/components/NavBar'
+import 'intro.js/introjs.css'
 
 export default {
   name: 'app',
