@@ -16,7 +16,6 @@
     "build-and-upload": "yarn build && ./gzip.sh && ./upload.sh nav.ftes.de"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0-beta.2",
     "eslint-config-standard": "^11.0.0-beta.0",
     "json-schema-faker": "^0.4.6",
     "lodash.orderby": "^4.6.0",
