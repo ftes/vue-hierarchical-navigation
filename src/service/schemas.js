@@ -1,4 +1,4 @@
-export const cart = {
+const cart = {
   type: 'object',
   required: ['id', 'name', 'amount'],
   properties: {
@@ -17,7 +17,7 @@ export const cart = {
   }
 }
 
-export const item = {
+const item = {
   type: 'object',
   required: ['id', 'name', 'amount'],
   properties: {
@@ -39,7 +39,7 @@ export const item = {
   }
 }
 
-export const items = (limit, items) => ({
+const items = (limit, items) => ({
   type: 'object',
   required: ['items'],
   properties: {
@@ -51,3 +51,9 @@ export const items = (limit, items) => ({
     }
   }
 })
+
+module.exports = {
+  item,
+  cart,
+  items
+}

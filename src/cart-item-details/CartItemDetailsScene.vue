@@ -15,7 +15,7 @@ export default {
 
   methods: {
     fetchItem () {
-      service.getItem(this.$route.params.itemId)
+      service.getItem(this.$route.params.cartId, this.$route.params.itemId)
         .then(item => {
           this.item = item
         })

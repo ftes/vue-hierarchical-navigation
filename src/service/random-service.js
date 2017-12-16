@@ -1,7 +1,6 @@
 import jsf from 'json-schema-faker'
+import { resolve } from '@/utils'
 import { cart, item, items } from './schemas'
-
-const resolve = value => new Promise(resolve => resolve(value))
 
 const NUMBER_OF_CARTS = 35
 const NUMBER_OF_ITEMS = 15
@@ -23,12 +22,12 @@ export default {
         }
       })),
 
-  getCart: (id) =>
-      resolve(jsf(cart))
-        .then(cart => ({
-          ...cart,
-          id
-        })),
+  getCart: id =>
+    resolve(jsf(cart))
+      .then(cart => ({
+        ...cart,
+        id
+      })),
 
   listItems: (cartId, limit, offset) =>
     resolve(jsf(items(pageSize(limit, offset, NUMBER_OF_ITEMS), item)))
@@ -41,10 +40,10 @@ export default {
         }
       })),
 
-  getItem: (id) =>
-      resolve(jsf(item))
-        .then(item => ({
-          ...item,
-          id
-        }))
+  getItem: (cartId, id) =>
+    resolve(jsf(item))
+      .then(item => ({
+        ...item,
+        id
+      }))
 }

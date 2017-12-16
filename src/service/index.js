@@ -1,1 +1,2 @@
-export { default } from './service'
+export { default } from './json-service'
+// export { default } from './random-service'

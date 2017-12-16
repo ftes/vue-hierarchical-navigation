@@ -1,0 +1,646 @@
+[
+  {
+    "id": "e220649c-65e7-41f4-9a7a-8d6191ab8158",
+    "name": "Cotton",
+    "amount": 964.01,
+    "items": [
+      {
+        "id": "077649ef-e0de-4492-a840-457cac2d55a0",
+        "name": "Ball",
+        "amount": 5
+      },
+      {
+        "id": "d60bbb4a-ce42-441f-915e-956531982290",
+        "name": "Keyboard",
+        "amount": 9
+      },
+      {
+        "id": "75770278-3b37-4a31-8a76-2eda7a1e1742",
+        "name": "Chicken",
+        "amount": 5
+      },
+      {
+        "id": "f2a88e66-caa5-4b4b-aa34-b908619de40e",
+        "name": "Cheese",
+        "amount": 4
+      },
+      {
+        "id": "bb94103f-f026-4e02-8d12-737df8e787d8",
+        "name": "Keyboard",
+        "amount": 10
+      },
+      {
+        "id": "45856a7d-d66f-415d-92b3-91937a478ae1",
+        "name": "Chips",
+        "amount": 1
+      },
+      {
+        "id": "1e5ac80b-5b74-4dc9-b089-dfa288c294d7",
+        "name": "Chair",
+        "amount": 8
+      }
+    ]
+  },
+  {
+    "id": "09218358-8b41-4390-87ea-4a65f35fc26b",
+    "name": "Granite",
+    "amount": 338.84,
+    "items": [
+      {
+        "id": "74dfccdf-d979-451f-a121-6a57fbd73718",
+        "name": "Chicken",
+        "amount": 5
+      },
+      {
+        "id": "0899502b-e3d6-4d5f-94d6-dc81a291bd72",
+        "name": "Shoes",
+        "amount": 3
+      },
+      {
+        "id": "f729b2fe-9f14-4c1a-a34f-f9387288d8b0",
+        "name": "Ball",
+        "amount": 4
+      },
+      {
+        "id": "ad08c2e6-8336-485c-ab02-e0e1d5248ae1",
+        "name": "Cheese",
+        "amount": 3
+      },
+      {
+        "id": "ac7ee6cd-8358-4748-b9c0-c3396f18ddaa",
+        "name": "Hat",
+        "amount": 4
+      },
+      {
+        "id": "bad9f413-313f-473b-bc72-acf9433e10ac",
+        "name": "Bacon",
+        "amount": 3
+      },
+      {
+        "id": "2c7fc716-cdae-405b-bc20-f4889deab0c9",
+        "name": "Gloves",
+        "amount": 1
+      },
+      {
+        "id": "80824aed-ca12-456f-b78b-4bcdf5d3071e",
+        "name": "Pants",
+        "amount": 0
+      },
+      {
+        "id": "49151fd4-e7ff-4b3e-8532-43373b5f2a44",
+        "name": "Pizza",
+        "amount": 9
+      }
+    ]
+  },
+  {
+    "id": "7e174c42-4ffe-422c-a3f2-1b6cf41035cb",
+    "name": "Rubber",
+    "amount": 36.31,
+    "items": [
+      {
+        "id": "d2efbabb-e661-4ff7-b0b6-6ead5fb5299c",
+        "name": "Bike",
+        "amount": 5
+      },
+      {
+        "id": "360fe17f-4c2b-415b-902a-0755393bf438",
+        "name": "Chicken",
+        "amount": 8
+      },
+      {
+        "id": "8217db3e-3426-4c6f-9ae0-4bc1fdb3b790",
+        "name": "Chicken",
+        "amount": 1
+      },
+      {
+        "id": "823c14d4-bda4-46e0-98bc-4e7dab447cd3",
+        "name": "Computer",
+        "amount": 8
+      },
+      {
+        "id": "08829b75-985a-47e5-aac3-ac414da7f433",
+        "name": "Hat",
+        "amount": 1
+      },
+      {
+        "id": "c8d7274e-d973-4ade-9f6c-b74a4558ad9e",
+        "name": "Table",
+        "amount": 9
+      }
+    ]
+  },
+  {
+    "id": "1ae7bac4-f51c-4a5e-bd69-89a21042f591",
+    "name": "Cotton",
+    "amount": 622.32,
+    "items": [
+      {
+        "id": "f2298b42-d319-4da4-b380-3f3c7ececa06",
+        "name": "Salad",
+        "amount": 0
+      },
+      {
+        "id": "19f38460-fb26-47c9-b678-d146acd1ba9b",
+        "name": "Shoes",
+        "amount": 3
+      },
+      {
+        "id": "62dc5f12-c88d-473a-af1f-d09dc2d3265c",
+        "name": "Mouse",
+        "amount": 10
+      },
+      {
+        "id": "ba79a50c-70ca-46b3-bfa1-8d1d8683063e",
+        "name": "Shirt",
+        "amount": 5
+      },
+      {
+        "id": "ee6b1423-1f40-4553-b9d1-bc78cbc3215d",
+        "name": "Soap",
+        "amount": 10
+      },
+      {
+        "id": "94b67d7b-eff5-4992-bb9e-6e2a32e958e5",
+        "name": "Sausages",
+        "amount": 1
+      },
+      {
+        "id": "68439d08-7d8a-4e42-8f0f-4fca0abf32c0",
+        "name": "Hat",
+        "amount": 7
+      },
+      {
+        "id": "c4d23fad-28f0-460f-92e8-ac133910d0fb",
+        "name": "Tuna",
+        "amount": 1
+      },
+      {
+        "id": "bfa58538-6de7-4fc0-9e58-45073e21f757",
+        "name": "Keyboard",
+        "amount": 10
+      }
+    ]
+  },
+  {
+    "id": "04d48853-9674-45b9-aa36-ca2af68fb010",
+    "name": "Metal",
+    "amount": 484.75,
+    "items": [
+      {
+        "id": "78d7916d-f966-40c8-a98f-c8e4c014fe03",
+        "name": "Salad",
+        "amount": 1
+      },
+      {
+        "id": "94dd2c2e-0711-44ca-ab21-56a2cd9c65ad",
+        "name": "Gloves",
+        "amount": 5
+      },
+      {
+        "id": "a79bf475-20fc-4fed-a519-aa38e6a226ee",
+        "name": "Bacon",
+        "amount": 3
+      },
+      {
+        "id": "722157a6-fa8c-4f24-b61e-a2f571cd573c",
+        "name": "Bike",
+        "amount": 7
+      },
+      {
+        "id": "8b136ff8-3806-4219-b8fd-777ffe895413",
+        "name": "Chicken",
+        "amount": 2
+      },
+      {
+        "id": "dc55ea28-e4ef-478d-8400-9999660accd2",
+        "name": "Bike",
+        "amount": 8
+      },
+      {
+        "id": "8c1f436d-d6f7-47ae-a161-0f05f0d36a4c",
+        "name": "Chair",
+        "amount": 4
+      },
+      {
+        "id": "939f57fc-9331-4086-8131-6e263945d767",
+        "name": "Car",
+        "amount": 9
+      },
+      {
+        "id": "46d9f11c-64e2-4da7-a6b4-c1384c8c8d29",
+        "name": "Chicken",
+        "amount": 7
+      },
+      {
+        "id": "52ea2682-73cc-4d66-958c-da0b0ae304fa",
+        "name": "Pizza",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "id": "d4d6987d-dddc-4e69-8d7d-ef5cef1b8142",
+    "name": "Rubber",
+    "amount": 692.71,
+    "items": [
+      {
+        "id": "22d3a80e-2082-4aaf-9b06-48e2a2b46c25",
+        "name": "Computer",
+        "amount": 9
+      },
+      {
+        "id": "7cb909fc-7036-4043-8557-0dfe4406ff84",
+        "name": "Tuna",
+        "amount": 2
+      },
+      {
+        "id": "1fd84245-062e-41b1-a884-533fcebff05b",
+        "name": "Shirt",
+        "amount": 10
+      },
+      {
+        "id": "9c73a22f-5d29-4e09-8725-4032688beb9b",
+        "name": "Shoes",
+        "amount": 4
+      },
+      {
+        "id": "0a8b09e0-ee74-4d51-b5b7-9c993ac8c810",
+        "name": "Pants",
+        "amount": 3
+      },
+      {
+        "id": "18b6f676-0c26-46b5-8a10-feaf7b761288",
+        "name": "Soap",
+        "amount": 2
+      },
+      {
+        "id": "0c70791f-14fe-4d78-a87f-4d372f426bb4",
+        "name": "Hat",
+        "amount": 9
+      }
+    ]
+  },
+  {
+    "id": "b81afbc2-ab8f-4690-9f30-94a7f5a649d3",
+    "name": "Metal",
+    "amount": 823.08,
+    "items": [
+      {
+        "id": "dced3c68-9e63-41c3-908d-4c3f0ec02b05",
+        "name": "Sausages",
+        "amount": 2
+      },
+      {
+        "id": "3d27248b-a27a-4db7-a974-86b23930043d",
+        "name": "Chips",
+        "amount": 4
+      },
+      {
+        "id": "0adc271f-97a8-439e-8737-c03025c1b2af",
+        "name": "Shoes",
+        "amount": 8
+      },
+      {
+        "id": "c0615708-c853-4a4b-bc7e-56ed5a719eb8",
+        "name": "Gloves",
+        "amount": 1
+      },
+      {
+        "id": "5880335e-bb91-42e2-b67f-a03e7f70a019",
+        "name": "Towels",
+        "amount": 3
+      },
+      {
+        "id": "16aa7eaa-bf98-4807-aad9-324107735ce5",
+        "name": "Hat",
+        "amount": 10
+      },
+      {
+        "id": "2f657c45-c163-4f30-b8ab-affb4d3ba2db",
+        "name": "Mouse",
+        "amount": 2
+      },
+      {
+        "id": "c62c5c4c-00ec-4f75-94dd-512d326a6a0d",
+        "name": "Chicken",
+        "amount": 0
+      },
+      {
+        "id": "29304d55-79bf-4cd4-a323-4671ab992660",
+        "name": "Salad",
+        "amount": 7
+      },
+      {
+        "id": "338aa46f-7325-43ea-bde3-c10e987f349d",
+        "name": "Pizza",
+        "amount": 1
+      },
+      {
+        "id": "4ff7904f-82b1-45bf-89b5-c45265e17e69",
+        "name": "Sausages",
+        "amount": 6
+      },
+      {
+        "id": "1aceed72-dbaf-4340-a950-39b856d7f1a8",
+        "name": "Shoes",
+        "amount": 6
+      },
+      {
+        "id": "5f061bd7-329b-4ef8-81b0-e357ce6a65f1",
+        "name": "Car",
+        "amount": 2
+      },
+      {
+        "id": "8a8daaab-c7f0-45ce-8ecb-8aae59a2259a",
+        "name": "Table",
+        "amount": 2
+      },
+      {
+        "id": "15cb5800-3171-4200-8b83-e92b5c37a2e2",
+        "name": "Sausages",
+        "amount": 10
+      },
+      {
+        "id": "e80a398c-58cc-42ac-a55c-700a80c261e6",
+        "name": "Car",
+        "amount": 2
+      },
+      {
+        "id": "b345e548-4740-4ce6-b69c-8dd0d52a53cd",
+        "name": "Cheese",
+        "amount": 2
+      },
+      {
+        "id": "3d2387c6-7456-47f2-a1e0-7ac8f4609ec8",
+        "name": "Ball",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "id": "6e9aa921-c469-4e13-92e2-ab15740b3a39",
+    "name": "Frozen",
+    "amount": 968.13,
+    "items": [
+      {
+        "id": "71ceea6c-a590-457b-80d7-33639eb775b5",
+        "name": "Hat",
+        "amount": 0
+      },
+      {
+        "id": "0b19d8ff-b48f-4015-9a7b-e6da43b17495",
+        "name": "Keyboard",
+        "amount": 2
+      },
+      {
+        "id": "de866fdf-1a7b-4568-9221-8d31895c2651",
+        "name": "Bike",
+        "amount": 5
+      },
+      {
+        "id": "ab751620-2ea3-49f8-bb33-11fc01749abe",
+        "name": "Pants",
+        "amount": 8
+      },
+      {
+        "id": "75723a10-1e45-4ec9-bdd0-e1a177aa3e0c",
+        "name": "Table",
+        "amount": 6
+      },
+      {
+        "id": "dd76964a-183a-45ae-b3bb-1c6f1aab85eb",
+        "name": "Sausages",
+        "amount": 0
+      },
+      {
+        "id": "b7b95363-6ac5-433e-905d-43104aa679e4",
+        "name": "Tuna",
+        "amount": 6
+      },
+      {
+        "id": "df7c13eb-2c2a-4652-a634-899cfb5e8375",
+        "name": "Ball",
+        "amount": 9
+      },
+      {
+        "id": "18bb2231-f5e4-41d2-bd43-de4ccedbe9b8",
+        "name": "Chicken",
+        "amount": 9
+      },
+      {
+        "id": "5f35a623-0b0d-461a-9704-a137338db265",
+        "name": "Ball",
+        "amount": 2
+      },
+      {
+        "id": "d380afee-0220-4c0b-ae3d-a4ac0ec1891e",
+        "name": "Bike",
+        "amount": 0
+      },
+      {
+        "id": "5ab69cc2-3e53-4041-9d9b-aacacda8017e",
+        "name": "Soap",
+        "amount": 9
+      },
+      {
+        "id": "68481e55-f97a-4502-bc81-0fe1317b33f6",
+        "name": "Bike",
+        "amount": 0
+      },
+      {
+        "id": "f401f9bd-3d61-4390-8990-749eb5350e7e",
+        "name": "Bike",
+        "amount": 8
+      },
+      {
+        "id": "0b58255b-bcb4-4573-abd1-1a67a0a0accb",
+        "name": "Table",
+        "amount": 0
+      },
+      {
+        "id": "a4dd05e2-8ed7-4ec8-89f1-0c65c09cf2ce",
+        "name": "Car",
+        "amount": 2
+      },
+      {
+        "id": "4bd54f3d-6a8b-48b1-a33c-789c8a9f1d82",
+        "name": "Towels",
+        "amount": 10
+      },
+      {
+        "id": "465c8d35-9c4a-4d1a-9b3b-ebe342de2dd5",
+        "name": "Keyboard",
+        "amount": 3
+      }
+    ]
+  },
+  {
+    "id": "db51fa5b-3dda-4fbb-b975-00420f00afd5",
+    "name": "Steel",
+    "amount": 882.39,
+    "items": [
+      {
+        "id": "772e30f8-5379-4199-9ccf-9898fd3c0db5",
+        "name": "Tuna",
+        "amount": 1
+      },
+      {
+        "id": "eda8a03b-5673-48cc-975d-d5e847dba776",
+        "name": "Shoes",
+        "amount": 0
+      },
+      {
+        "id": "35110408-10c2-432c-ae4a-c3d2dc9a6c59",
+        "name": "Hat",
+        "amount": 7
+      },
+      {
+        "id": "8f3f5e56-ebc0-4330-bbd1-dd69746ca7e4",
+        "name": "Keyboard",
+        "amount": 8
+      },
+      {
+        "id": "0235de17-2548-4fb9-a3a1-d682194b7aad",
+        "name": "Table",
+        "amount": 6
+      },
+      {
+        "id": "47486c50-0d3a-44fc-999a-ba21ec9e3854",
+        "name": "Fish",
+        "amount": 8
+      },
+      {
+        "id": "1276af54-4499-4522-96c1-186a7c47e5cb",
+        "name": "Keyboard",
+        "amount": 7
+      }
+    ]
+  },
+  {
+    "id": "3c773488-9575-4c13-aa43-c5c031da55d2",
+    "name": "Wooden",
+    "amount": 666.16,
+    "items": [
+      {
+        "id": "019f1ee2-8e4c-4333-98e7-8f1b4c74e068",
+        "name": "Soap",
+        "amount": 8
+      },
+      {
+        "id": "69c4eb36-fa9b-4d77-8a1c-c58fe6ee8240",
+        "name": "Salad",
+        "amount": 2
+      },
+      {
+        "id": "6b2bfea6-173a-4a6f-8576-16f007462a34",
+        "name": "Pizza",
+        "amount": 7
+      },
+      {
+        "id": "ed4a349e-d9c1-4e6a-9018-65adf0acddbe",
+        "name": "Computer",
+        "amount": 0
+      },
+      {
+        "id": "5cd34fbd-7f1b-40df-adcc-652437ea19cf",
+        "name": "Table",
+        "amount": 8
+      },
+      {
+        "id": "1ada8560-cbaa-4484-ab2e-6e439557adf1",
+        "name": "Shoes",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "id": "48414730-b948-42d9-a11e-712b2e4b0560",
+    "name": "Granite",
+    "amount": 878.34,
+    "items": [
+      {
+        "id": "6c7f4342-bb36-40b1-ba69-b96513f210a0",
+        "name": "Sausages",
+        "amount": 9
+      },
+      {
+        "id": "c8bd9194-f844-4990-9194-05cacf3cb5af",
+        "name": "Car",
+        "amount": 4
+      },
+      {
+        "id": "84f8f249-dd52-456f-9324-77900cea7c5b",
+        "name": "Shirt",
+        "amount": 9
+      },
+      {
+        "id": "ffb54103-70df-41a0-8606-9bfc99c65cbd",
+        "name": "Pizza",
+        "amount": 3
+      },
+      {
+        "id": "6a5377fb-16c1-4c92-9089-0e27fa4fa3c3",
+        "name": "Chair",
+        "amount": 0
+      },
+      {
+        "id": "32875075-8473-497f-892e-db5b08652c7f",
+        "name": "Soap",
+        "amount": 4
+      },
+      {
+        "id": "c23ca859-7260-48c4-8cba-4bb030f21a28",
+        "name": "Pants",
+        "amount": 6
+      },
+      {
+        "id": "527b247a-3057-4c88-a696-12d849854fd9",
+        "name": "Pants",
+        "amount": 7
+      },
+      {
+        "id": "d77c8acc-4515-4189-afcd-63044ed4aeef",
+        "name": "Car",
+        "amount": 10
+      },
+      {
+        "id": "cc521f10-8144-4be2-af08-0fada95f3b9b",
+        "name": "Shoes",
+        "amount": 2
+      },
+      {
+        "id": "7d02b341-cf3a-47b8-a5ba-198f3349539c",
+        "name": "Computer",
+        "amount": 4
+      },
+      {
+        "id": "a39aab94-573a-46d7-9dce-c2c5ab748016",
+        "name": "Tuna",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "id": "be7a15b7-0a3d-40ad-a990-11b045585188",
+    "name": "Soft",
+    "amount": 448.77,
+    "items": [
+      {
+        "id": "df8eb8e6-e709-4f99-af03-bf3052583761",
+        "name": "Towels",
+        "amount": 0
+      },
+      {
+        "id": "d26ef201-e898-469f-999b-1188ec97e147",
+        "name": "Hat",
+        "amount": 3
+      },
+      {
+        "id": "993247c6-2f38-4a50-a08e-25ae935f697f",
+        "name": "Tuna",
+        "amount": 9
+      }
+    ]
+  }
+]
