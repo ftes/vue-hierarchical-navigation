@@ -1,8 +1,6 @@
 # Hierarchical navigation with Vue
 
-Demo: [http://nav.ftes.de]
-
-> Hierarchical Navigation
+Demo: http://nav.ftes.de
 
 This is a shopping cart demo. Navigation occurs across three levels:
 1. shopping cart list
@@ -15,6 +13,15 @@ Consistent "hierarchical" navigation across these levels is achieved using `vue-
 
 A better term might be hierarchy-aware navigation.
 The idea is to preserve a hierarchical history in addition to the regular linear browser history.
+
+```
+      Upwards:       go back to most recent state of an ancestor in the navigation hierarchy
+         ^
+         |
+         |
+<----------------->
+      Sideways:      switch between items within a level of the navigation hierarchy (honor the sorting/filter of the items)
+```
 
 ### Navigate upwards in hierarchy
 
