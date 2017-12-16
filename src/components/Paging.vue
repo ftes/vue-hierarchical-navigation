@@ -67,6 +67,7 @@ export default {
     pageLink (pageNumber) {
       return {
         query: {
+          ...this.$route.query,
           limit: this.pageSize,
           offset: pageNumber * this.pageSize
         }

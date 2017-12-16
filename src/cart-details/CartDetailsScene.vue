@@ -13,8 +13,8 @@
 
       <table class="table">
         <tr>
-          <th>Name</th>
-          <th>Amount</th>
+          <sortable-th field="name">Name</sortable-th>
+          <sortable-th field="amount">Amount</sortable-th>
         </tr>
         <tr v-for="(item, i) in items" :key="item.id">
           <td><router-link :to="itemLink(item, i)">{{item.name}}</router-link></td>
@@ -61,9 +61,9 @@ export default {
         }
       }
     },
-    getItems (limit = PAGE_SIZE, offset) {
+    getItems (limit = PAGE_SIZE, offset, sort) {
       const cartId = this.$route.params.cartId
-      return service.listItems(cartId, limit, offset)
+      return service.listItems(cartId, limit, offset, sort)
     },
     navigateTo (cartId) {
       this.$router.push({ params: { cartId } })

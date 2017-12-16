@@ -9,8 +9,8 @@
       :numberOfItems="items.length">
       <table class="table">
         <tr>
-          <th>Name</th>
-          <th>Amount</th>
+          <sortable-th field="name">Name</sortable-th>
+          <sortable-th field="amount">Amount</sortable-th>
         </tr>
         <tr v-for="(cart, i) in items" :key="cart.id">
           <td><router-link :to="cartLink(cart, i)">{{cart.name}}</router-link></td>
@@ -49,8 +49,8 @@ export default {
         }
       }
     },
-    getItems (limit = PAGE_SIZE, offset) {
-      return service.listCarts(limit, offset)
+    getItems (limit = PAGE_SIZE, offset, sort) {
+      return service.listCarts(limit, offset, sort)
     }
   }
 }

@@ -1,2 +1,7 @@
 export { default as isDefined } from './isDefined'
 export { default as resolve } from './resolve'
+export { default as sortBy, ASC, DESC } from './sortBy'
+export { default as parseSort } from './parseSort'
+export { default as serializeSort } from './serializeSort'
+export { default as sortDirection } from './sortDirection'
+export { default as toggleSort } from './toggleSort'
