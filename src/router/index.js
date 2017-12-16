@@ -8,7 +8,9 @@ Vue.use(Router)
 
 export const hierarchy = ['cart.list', 'cart.details', 'cart.item.details']
 
-export default new Router({
+export const lastRouteByLevel = {}
+
+const router = new Router({
   routes: [
     {
       path: '/',
@@ -25,3 +27,9 @@ export default new Router({
     }
   ]
 })
+
+router.afterEach((to, from) => {
+  lastRouteByLevel[from.name] = from
+})
+
+export default router
