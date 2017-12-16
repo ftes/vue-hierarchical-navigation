@@ -6,6 +6,8 @@ import CartItemDetailsScene from '@/cart-item-details/CartItemDetailsScene'
 
 Vue.use(Router)
 
+export const hierarchy = ['cart.list', 'cart.details', 'cart.item.details']
+
 export default new Router({
   routes: [
     {

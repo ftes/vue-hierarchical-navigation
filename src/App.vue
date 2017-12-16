@@ -1,21 +1,19 @@
 <template>
   <div id="app">
-    <nav class="navbar navbar-dark bg-dark">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#" @click="$router.go(-1)">Back</a>
-        </li>
-      </ul>
-    </nav>
+    <nav-bar/>
     <router-view/>
   </div>
 </template>
 
 <script>
 import 'bootstrap/dist/css/bootstrap.css'
+import NavBar from '@/components/NavBar'
 
 export default {
-  name: 'app'
+  name: 'app',
+  components: {
+    NavBar
+  }
 }
 </script>
 
