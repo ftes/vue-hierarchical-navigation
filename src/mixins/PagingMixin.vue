@@ -15,6 +15,15 @@ export default {
     totalCount: 0
   }),
 
+  computed: {
+    from () {
+      return this.params.offset + 1
+    },
+    to () {
+      return this.params.offset + this.items.length
+    }
+  },
+
   methods: {
     fetchItems () {
       const { offset, limit } = this.$route.query
@@ -37,6 +46,11 @@ export default {
 
   mounted () {
     this.fetchItems()
+  },
+
+  beforeRouteLeave (to, from, next) {
+    from.meta.suffix = `${this.from} - ${this.to} of ${this.totalCount}`
+    next()
   }
 }
 </script>
